@@ -6,7 +6,7 @@ class TicTacToe:
         self.ventana = tk.Tk()
         self.ventana.title("🎮 Tic Tac Toe")
         self.ventana.geometry("400x500")
-        self.ventana.configure(bg='#2c3e50')
+        self.ventana.configure(bg='#FFFe50')
         
         self.tablero = [' '] * 9
         self.jugador_actual = 'X'
@@ -19,7 +19,7 @@ class TicTacToe:
             self.ventana, 
             text="🎮 TIC TAC TOE 🎮", 
             font=('Arial', 20, 'bold'),
-            bg='#2c3e50',
+            bg='#FFFe50',
             fg='#ecf0f1'
         )
         titulo.pack(pady=20)
