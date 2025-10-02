@@ -18,7 +18,7 @@ class Solution:
                     result.append([idx, i])
             
             # Guardar el índice actual para este número
-            if num not in seen:
+            elif num not in seen:
                 seen[num] = []
             seen[num].append(i)
             
